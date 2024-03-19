@@ -75,9 +75,9 @@
             </div>
             <div id="part2">
                 <div class="part2">
-                    <input type="text" id="rua" placeholder="Rua" value=""> 
-                    <input type="text" id="bairro" placeholder="Bairro" value=""> 
-                    <input type="text" id="localidade" placeholder="localidade" value=""> 
+                    <input type="text" id="rua" placeholder="Rua"> 
+                    <input type="text" id="bairro" placeholder="Bairro"> 
+                    <input type="text" id="localidade" placeholder="Localidade"> 
 
                 </div>  
                     <div id="part3">
@@ -106,9 +106,9 @@
          console.log(data);
          document.getElementById('rua').value = data. logradouro;
          document.getElementById('bairro').value = data. bairro;
-         document.getElementById('localidade').value = data. localidade;
-        }catch (error) {
-
+         document.getElementById('cidade').value = data. localidade;
+    }catch (error) {
+        alert(error.message);
     }
     
     }
