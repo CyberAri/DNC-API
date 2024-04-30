@@ -102,13 +102,13 @@ input{
     border-radius: 10px;
     border: 0px;
 }
-#latitude{
+#lat{
     width: 245px;
     height: 55px;
     border-radius: 10px;
     border: 0px;
 }
-#longitude{
+#long{
     width: 245px;
     height: 55px;
     border-radius: 10px;
